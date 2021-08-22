@@ -1,49 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bartosz Czyzewski - portfolio</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <style>
+      html {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: white;
+      }
+      body{
+          margin: 0;
+          background-image: url(bg-image.jpg);
+          background-size: cover;
+      }
 
-<body>
-    <h1>Bartek Czyżewskiiii</h1>
+      h1 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+      }
+
+      h2,
+      h3,
+      footer {
+        font-family: sans-serif;
+      }
+
+      h3 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 13px;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+      .links {
+        display: flex;
+        justify-content: space-between;
+      }
+      .links section {
+        flex-grow: 1;
+        width: 100%;
+      }
+
+      .page {
+          background: rgb(82, 82, 133);
+          overflow: auto;
+          margin-left: 30%;
+          min-height: 100vh;
+          padding: 40px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+    </style>
+  </head>
+  
+  <section class="page">
+  <body>
+    <h1>Bartosz Czyżewski</h1>
 
     <h2>Cześć!</h2>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti dignissimos maxime, hic expedita minus non
-        laboriosam earum eveniet saepe alias itaque, doloribus dolorem impedit minima mollitia fugit? Nisi, assumenda
-        laudantium?</p>
-    
-    <h3>Poczytaj</h3>
-    <ul>
-        <li>Blog</li>
-        <li>Email</li>
-        <li>Newsletter</li>
-    </ul>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+      dignissimos maxime, hic expedita minus non laboriosam earum eveniet saepe
+      alias itaque, doloribus dolorem impedit minima mollitia fugit? Nisi,
+      assumenda laudantium?
+    </p>
 
-    <h3>Pingnij mnie</h3>
-    <ul>
-        <li>Twitter</li>
-        <li>Instagram</li>
-        <li>Dribbble</li>
-    </ul>
+    <section class="links">
+      <section>
+        <h3>Poczytaj</h3>
+        <ul>
+          <li>Blog</li>
+          <li>Email</li>
+          <li>Newsletter</li>
+        </ul>
+      </section>
 
-    <h3>Zobacz</h3>
-    <ul>
-        <li>Projekt 1</li>
-        <li>Projekt 2</li>
-        <li>Projekt 3</li>
-    </ul>
+      <section>
+        <h3>Pingnij mnie</h3>
+        <ul>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Dribbble</li>
+        </ul>
+      </section>
 
-        <footer>
-            <p>&copy;2021 - Bartosz Czyżewski</p>
-        </footer>
+      <section>
+        <h3>Zobacz</h3>
+        <ul>
+          <li>Projekt 1</li>
+          <li>Projekt 2</li>
+          <li>Projekt 3</li>
+        </ul>
+      </section>
+    </section>
 
+    <footer>
+      <p>&copy;2021 - Bartosz Czyżewski</p>
+    </footer>
+</section>
 
-
-</body>
-
+  </body>
 </html>
